@@ -1,0 +1,12 @@
+Create a Dockerfile in the current directory for creating a docker image
+
+Generate a docker image 
+	docker build -t py-image .
+
+Check if the docker image was generated
+	docker images
+
+Run a docker instance using the crweated image
+	docker run --name gw -it py-image
+
+
